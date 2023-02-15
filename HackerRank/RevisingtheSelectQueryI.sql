@@ -8,7 +8,6 @@ CountryCode for America is USA.
 The CITY table is described as follows: 
 */
 
-
 -- SOLUTION
 
 select * from CITY where CountryCode = 'USA' and population > 100000 ;
